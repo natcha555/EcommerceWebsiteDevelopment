@@ -1,0 +1,72 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #fce5df;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  white-space: pre-wrap;
+}
+
+img{
+  object-fit: cover;
+  object-position: 0 30%;
+}
+
+.navbar {
+  background-color: #cfbcb5;
+}
+
+
+.btn1 {
+  text-decoration: none;
+  background-color: #795a4e; /* Green */
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-right:'5px';
+  flex:1;
+}
+
+.btn2{
+  background-color: hwb(14 19% 60%); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration:  none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-right:'5px';
+  flex:1;
+}
+
+
+/* __________________Loading________________________ */
+
+@import url("./loading.css");
+
+/* __________________Products________________________```` */
+
+@import url("./product.css");
+
+/* __________________Profile________________________```` */
+
+@import url("./profile.css");
+
+/* __________________Product Manager________________________```` */
+
+@import url("./products_manager.css");
