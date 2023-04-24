@@ -3,7 +3,7 @@ require('dotenv').config()
 
 module.exports = {
     env:{
-        "BASE_URL":"http://localhost:3000",
+        "BASE_URL":"http://next-ecommerce-development-natcha555.com",
         "MONGODB_URL":"mongodb+srv://akira:JQDsSZB5i9iwRLB5@cluster0.uc6z7qg.mongodb.net/shop?retryWrites=true&w=majority",
         "ACCESS_TOKEN_SECRET": "akira8070502543302664",
         "REFRESH_TOKEN_SECRET":"akirasecret52295869rere61607594",
