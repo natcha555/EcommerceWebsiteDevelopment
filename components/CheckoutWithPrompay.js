@@ -91,7 +91,7 @@ const CheckoutWithPrompay = ( {order, slip} ) => {
     <div>
         <div className="mb-4 text-uppercase">
             <h4>Transfer Banking</h4>
-            <img src="https://res.cloudinary.com/daqt8gqb8/image/upload/v1681054262/prompay_qaqowd.jpg" style={{width: '280px', height: '350px', borderRadius:'5px'}}/>
+            <img src="https://res.cloudinary.com/daqt8gqb8/image/upload/v1682064318/S__16695344_o23ogj.jpg" style={{width: '280px', height: '350px', borderRadius:'5px'}}/>
         </div>
 
         <div className="mb-4 text-uppercase">

@@ -77,7 +77,7 @@ const ProductItem = ({product, handleCheck}) => {
                     {
                         product.inStock > 0
                         ?<h6 className="text-danger">In Stock</h6>
-                        :<h6 className="text-danger">Out Of Stock</h6>
+                        :<h6 className="text-danger">Out of Stock</h6>
                         
                     }
                     

@@ -192,8 +192,8 @@ const Profile = () => {
                                             {
                                                 slip.map(slips=>( 
                                                 order._id === slips.id
-                                                ? <i className="text-success"> slip attached</i>
-                                                : <i className=""></i>
+                                                ? <i className="text-success" key=""> slip attached</i>
+                                                : <i className="" key=""></i>
                                                 ))   
                                             }
                                         </td>
