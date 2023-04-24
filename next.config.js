@@ -3,7 +3,7 @@ require('dotenv').config()
 
 module.exports = {
     env:{
-        "BASE_URL":"http://next-ecommerce-development-natcha555.com",
+        "BASE_URL":"http://localhost:3000",
         "MONGODB_URL":"mongodb+srv://akira:JQDsSZB5i9iwRLB5@cluster0.uc6z7qg.mongodb.net/shop?retryWrites=true&w=majority",
         "ACCESS_TOKEN_SECRET": "akira8070502543302664",
         "REFRESH_TOKEN_SECRET":"akirasecret52295869rere61607594",
@@ -11,7 +11,7 @@ module.exports = {
         "CLOUND_UPDATE_PRESENT":"nextjs_store",
         "CLOUND_NAME":"daqt8gqb8",
         "CLOUND_API":"https://api.cloudinary.com/v1_1/daqt8gqb8/image/upload",
-        OMISE_PUBLIC_KEY : process.env.OMISE_PUBLIC_KEY
+        
     }
 }
 

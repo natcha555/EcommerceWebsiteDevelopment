@@ -93,7 +93,7 @@ const Profile = () => {
     return(
         <div className="profile_page">
             <Head>
-                <title>Your Profile</title>
+                <title>Profile</title>
             </Head>
 
             <section className="row text-dark my-3">
